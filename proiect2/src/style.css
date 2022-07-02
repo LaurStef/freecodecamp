@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #282d35;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #21222a;
+    padding: 15px 25px;
+}
+.logo{
+    max-width: 40px;
+    max-height:40px;
+    margin-right: 10px;
+
+}
+
+nav h4 {
+    margin-left: auto;
+    font-weight: 700;
+    color:#deebf8;
+}
+
+nav h3 {
+    color: #61dafb;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.main{
+    height:100%;
+    color:white;
+    padding: 57px 27px;
+    background-image: url(C:\Users\Laur\Desktop\React\freecodecamp\proiect2\public\logo512.png);
+    background-repeat: no-repeat;
+    background-position-x: right ;
+    background-position-y: 75%;
+    background-size: 250px;
+    opacity: 0.5; 
+    
+
+}   
+
+h1{
+    margin:0;
+    letter-spacing: -0.01em;
+}
+.facts{
+    margin-top: 46px;
+}
+.main li{
+    line-height: 19px;
+    padding-block: 10px;
+}
+li::marker{
+    color:#61dafb;
+    font-size: 1.4rem;
+}
